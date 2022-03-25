@@ -450,6 +450,7 @@ form {
   margin: 40px 0;
   padding:20px 0;
   border: 3px dashed wheat;
+  background-image: url("../images/form_background.jpg") ;
 }
 
 legend{ 
