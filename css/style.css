@@ -336,6 +336,10 @@ main > p {
     width: 100%;
     height: 95%;
 }
+.moving-opening img:hover{
+  outline-style: inset;
+  outline-color: red;
+}
 .moving-opening p{
     text-align: center;
 }
@@ -989,5 +993,3 @@ footer p{
         animation: none; 
       }
     }
- 
-
