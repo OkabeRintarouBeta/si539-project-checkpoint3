@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link to the favicon image -->
+        <link rel="icon" href="images/favicon.ico">
+        <!-- Link to the reset file -->
+        <link rel="stylesheet" href="css/html5reset.css">
+        <!-- Link to the stylesheet -->
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/links.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Faustina&family=Merienda&family=Permanent+Marker&family=Changa&family=Ubuntu+Mono&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/699a16eae7.js" crossorigin="anonymous"></script>
+        <script src="js/form.js"></script>
+        <!-- <style>
+            .mySlides {display:none;}
+        </style> -->
+        <title>Artistic Style</title>
+    </head>
+
+
+<body>
+    <a href="#main" class="skip">Skip to main content</a>  
+    <header>
+		<!-- Nav is a sematic tag page that aids accessibility -->
+		<nav class="nav-container">
+      
+			<div class="nav-left">
+				<div class="shine animation">DRRR!</div>
+				
+				<!-- <a href="#main" class="skip">Skip to Main Content</a> -->
+			</div>
+			<div class="nav-right">
+				<ul class="nav-ul-container">
+					<li class="navigation-bar"><a href = "index.html" >About</a></li>
+					<li class="navigation-bar"><a href = "characters.html">Characters</a></li>
+					<li class="navigation-bar"><a href = "art.html">Style</a></li>
+					<li class="active navigation-bar"><a href = "author.html">Author</a></li>
+				</ul>
+			</div>
+		</nav>
+		<h1>About Me</h1>
+        
+	</header>
+
+
+	<main id="main">
+        
+        <div class="author-introduction">
+            <div class="subtitle">
+                <h2>Creator</h2>
+                <h2>Zihui Liu</h2>
+            </div>
+            
+            <div class="author-introduction-text">
+                    <p>My name is Zihui, and I am now a first year graduate student at University of Michigan School of Information.</p>
+                    
+                    <p>I am now in the data analysis track, and hoping to become a full-stack programmer.</p>
+            </div>
+            <div class="author-introduction-image">
+                <img src="images/personal_image.jpeg" alt="me" width="260" />
+            </div>
+
+            
+            <div class="author-introduction-more">
+                <h2>More about myself</h2>
+                <div class="author-introduction-text2">
+                    <i class="fa-solid fa-angles-right"></i>
+                    I started to play badminton since I was 12, and I am really good at it now.
+                    <div></div>
+                    <i class="fa-solid fa-angles-right"></i> In my spare time I enjoy watching Japanese Animes and reading detective novels.
+                    <div></div>
+                    <i class="fa-solid fa-angles-right"></i> I keep a 5-year old Corgi at home. He really enjoys interacting with people.
+                    <div class="dog-picture">
+                        <img src="images/dog2.jpeg" alt="dog2" class="dog" width='200'/>
+                        <img src="images/dog4.jpeg" alt="dog4" class="dog" width='200'/>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+        </div>
+  
+  
+        
+              
+
+        <div class="divider div-transparent div-arrow-down"></div>
+        
+
+        <form action="https://formspree.io/f/mpzbjazw" method="POST">
+          <fieldset>
+              <legend>Contact Form</legend>
+              <div class="form-container">
+                <label for="name_id"><i class="fa-solid fa-user"></i> Your Name</label>
+                <input type="text" placeholder="Your Name" id = "name_id" name="name"   required>
+            
+                <label for="email_id"><i class="fa-solid fa-phone"></i> Your Email</label>
+                <input type="email" placeholder="Your Email" id = "email_id" name="email"  required>
+            
+                <label for="phone_id"><i class="fa-solid fa-envelope"></i> Your Phone Number</label>
+                <input type="tel" name="phone" id="phone_id" placeholder="123-456-7890"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <div class="format"><span>Format: 123-456-7890</span></div>
+                
+                <div class="like-extent">Do you like the content?</div>
+                <div class="like">
+                    
+                    <div class="choice">
+                        <input type="radio" id="level1" name="level1" value="very not like">
+                        <i class="fa-solid fa-face-frown"></i><label for="level1">1</label>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="level2" name="level2" value="not like">
+                        <i class="fa-solid fa-face-frown-open"></i><label for="level2">2</label>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="level3" name="level3" value="plain">
+                        <i class="fa-solid fa-face-meh"></i><label for="level3">3</label>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="level4" name="level4" value="plain">
+                        <i class="fa-solid fa-face-smile"></i><label for="level4">4</label>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="level5" name="level5" value="plain">
+                        <i class="fa-solid fa-face-laugh"></i><label for="level5">5</label>
+                    </div>
+                    
+                </div>
+                
+                
+        
+            
+                <label for="msg"><i class="fa-solid fa-message"></i> Leave me A Message</label>
+                <textarea placeholder="Enter your message" id = "msg" name="mesg"  required></textarea><br>
+                
+                <div class="remember-me">
+                  <input type="checkbox" checked="checked" name="remember" id = "cBox"> 
+                  <label for ="cBox">Remember me</label>
+                </div>
+              </div>
+              
+              <input type="submit" value = "Contact Me">
+          </fieldset>
+      </form>
+
+	</main>
+
+
+	<footer>
+        <hr>
+		<p>Zihui Liu SI539 Project 2022Winter</p>
+	</footer>
+</body>
+</html>
