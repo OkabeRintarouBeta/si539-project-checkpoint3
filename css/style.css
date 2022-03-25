@@ -195,6 +195,7 @@ main{
 
 
   .story-intro-container2 {
+    margin-top:20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -284,7 +285,7 @@ main > p {
   .story-telling h2{
       padding:5px 0 10px 0;
       text-align: center;
-      font-size:1.2em;
+      font-size:1.5em;
   }
 .story-telling-content{
     padding:10px 0;
@@ -526,6 +527,9 @@ div.like div.choice{
 div.like div.choice label{
   font-size: 0;
 }
+div.like div.choice input[type=radio]{
+  width: 30px;
+}
 
 input:focus,textarea:focus{
   border:1px solid blue;
@@ -716,7 +720,7 @@ footer p{
     max-width: 200px;
   }
   div.like{
-    max-width: 350px;
+    max-width: 400px;
   }
   input[type=email],input[type=tel],textarea{
     max-width: 400px;
