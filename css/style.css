@@ -523,6 +523,7 @@ div.like div.choice{
   display: flex;
   flex-direction: column;
   margin-right:10%;
+  align-items: center;
 }
 div.like div.choice label{
   font-size: 0;
